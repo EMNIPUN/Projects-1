@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1><u>About Our Team</u></h1>
+
+    <table>
+        <tr>
+            <td><strong>Email :</strong></td>
+            <td>nipundananajaya1216@gamil.com </td>
+        </tr>    
+        <tr>
+            <td><strong>Name :</strong></td>
+            <td>ND Creation</td>
+        </tr> 
+        <tr>
+            <td><strong>Adrress :</strong></td>
+            <td><em>kollupitiya, colombo 7</em></td>
+        </tr> 
+    </table>    
+
+    <fieldset>
+    <legend>Sing up Hear</legend>
+    <form action="data.html" method="post" autocomplete="on">
+        <br>
+
+        <label for="n1"><strong>Full Name :</strong></label><br>
+        <input type="text" id="n1" name="fname" placeholder="Enter your full name" required>
+
+        <br><br>
+
+        <label for="a1"><strong>Address: </strong></label><br>
+        <input type="text" id="a1" name="add" placeholder="Enter the Address" required>
+
+        <br><br>
+
+        <label for="e1"><strong>Enter your Email:</strong></label><br>
+        <input type="email" id="e1" name="email" placeholder="Enter your Email" required><br><br>
+
+        <label><strong>Select Gender:</strong></label>
+        <label for="g1">Male</label>
+        <input type="radio" id="g1" name="gender" value="male">
+        <label for="g1">Female</label>
+        <input type="radio" id="g1" name="gender" value="female"><br><br>
+
+        <strong>
+        <label for="b1">Enter the Brithday :</label>
+        <input type="date" id="b1" name="brirth"><br><br>
+
+        <label for="j1">Month & Year of apply for university :</label>
+        <input type="month" id="j1">
+        </strong>
+
+        <br><br><hr>
+
+        <label><strong>Select the Language you are already Known</strong></label><br>
+        <label for="l1">HTML</label>
+        <input type="checkbox" id="l1" name="Language" value="html"><br>
+        <label for="l1">CSS</label>
+        <input type="checkbox" id="l1" name="Language" value="css"><br>
+        <label>PHP</label>
+        <input type="checkbox" id="l1" name="Language" value="php"><br>
+        <label for="l1">Java Script</label>
+        <input type="checkbox" id="l1" name="Language" value="js"><br><br>
+
+        <label for="c1">Select the course</label>
+        <select name="course" id="c1">
+            <option value="it">Information & Technology</option>
+            <option value="se" selected>Software Engineer</option>
+            <option value="cs">Cyber Sequrity</option>
+            <option value="ds">Data Science</option>
+        </select>    
+
+        <br><br>
+
+        <h3><u>Other form Features</u></h3>
+
+        <label for="c1">Enter your favorite color: </label>
+        <input type="color" id="c1"><br><br>
+
+        <label for="s1">Google Search</label>
+        <input type="search" id="s1" name="gsearch">
+        
+        <a href="www.google.com" id="s1">
+            <button id="s1">Search</button>  
+        </a>
+
+
+        <table cellspacing="20">
+            <tr>
+                <td>
+                    <input type="reset" title="reset your all completed data">  
+                    <button type="button" onclick="alert('Hello World!')">Click Hear</button>       
+                </td>
+            </tr><br><hr>
+        </table>    
+
+        <input type="submit" value="Register" disabled><br><br>
+        <button><a href="data.html" target="_blank">Next page</a></button>
+
+    </form>
+    </fieldset>
+
+
+
+</body>
+</html>
